@@ -1,9 +1,26 @@
 # Copyright (c) 2012-2014 Kapiche Limited
 # Author: Ryan Stuart <ryan@kapiche.com>
 """
-Given a number n, return a base b where the number represented in that base is a palindrome.
+Palindrome
+==========
 
-Forgot to copy actual question.
+To help Beta Rabbit crack the lock, write a function answer(n) which returns the
+smallest positive integer base b, at least 2, in which the integer n is a
+palindrome. The input n will satisfy "0 <= n <= 1000".
+
+Test cases
+==========
+
+Inputs:
+    (int) n = 0
+Output:
+    (int) 2
+
+Inputs:
+    (int) n = 42
+Output:
+    (int) 4
+Given a number n, return a base b where the number represented in that base is a palindrome.
 """
 import string
 import sys
